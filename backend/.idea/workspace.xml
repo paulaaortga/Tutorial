@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e97f53d-8bc9-4e8b-ac78-79141f731c30" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2sWX7NlXsKpydL61E3HbnrSkfu9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TutorialApplication.executor": "Run",
+    "JUnit.AuthorIT.executor": "Run",
+    "JUnit.CategoryIT.executor": "Debug",
+    "JUnit.CategoryIT.findAllShouldReturnAllCategories.executor": "Run",
+    "JUnit.CategoryTest.executor": "Run",
+    "JUnit.ClientTest.executor": "Run",
+    "JUnit.ClientTest.saveExistingNameClient.executor": "Run",
+    "JUnit.GameIT.executor": "Run",
+    "JUnit.PrestamoIT.deleteWithExistsIdShouldDeletePrestamo.executor": "Run",
+    "JUnit.PrestamoIT.deleteWithNotExistsIdShouldThrowException.executor": "Run",
+    "JUnit.PrestamoIT.executor": "Run",
+    "JUnit.PrestamoIT.findExistsALLhouldReturnGames.executor": "Run",
+    "JUnit.PrestamoIT.findExistsFECHAShouldReturnGames.executor": "Run",
+    "JUnit.TutorialApplicationTests.executor": "Run",
+    "Maven.tutorial [mvn,install].executor": "Run",
+    "Maven.tutorial [spring-boot:run;,mvn,install].executor": "Run",
+    "Maven.tutorial [spring-boot:run].executor": "Run",
+    "Maven.tutorial.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "actions.on.save"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.TutorialApplication">
+    <configuration name="TutorialApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ccsw.tutorial.TutorialApplication" />
+      <module name="tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccsw.tutorial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestamoIT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccsw.tutorial.prestamo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ccsw.tutorial.prestamo" />
+      <option name="MAIN_CLASS_NAME" value="com.ccsw.tutorial.prestamo.PrestamoIT" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestamoIT.deleteWithExistsIdShouldDeletePrestamo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccsw.tutorial.prestamo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ccsw.tutorial.prestamo" />
+      <option name="MAIN_CLASS_NAME" value="com.ccsw.tutorial.prestamo.PrestamoIT" />
+      <option name="METHOD_NAME" value="deleteWithExistsIdShouldDeletePrestamo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestamoIT.findExistsALLhouldReturnGames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccsw.tutorial.prestamo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ccsw.tutorial.prestamo" />
+      <option name="MAIN_CLASS_NAME" value="com.ccsw.tutorial.prestamo.PrestamoIT" />
+      <option name="METHOD_NAME" value="findExistsALLhouldReturnGames" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrestamoIT.findExistsFECHAShouldReturnGames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ccsw.tutorial.prestamo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ccsw.tutorial.prestamo" />
+      <option name="MAIN_CLASS_NAME" value="com.ccsw.tutorial.prestamo.PrestamoIT" />
+      <option name="METHOD_NAME" value="findExistsFECHAShouldReturnGames" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tutorial [spring-boot:run]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="spring-boot:run" />
+              </list>
+            </option>
+            <option name="multimoduleDir" />
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.TutorialApplication" />
+      <item itemvalue="JUnit.PrestamoIT.deleteWithExistsIdShouldDeletePrestamo" />
+      <item itemvalue="JUnit.PrestamoIT.findExistsALLhouldReturnGames" />
+      <item itemvalue="JUnit.PrestamoIT.findExistsFECHAShouldReturnGames" />
+      <item itemvalue="JUnit.PrestamoIT" />
+      <item itemvalue="Maven.tutorial [spring-boot:run]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TutorialApplication" />
+        <item itemvalue="JUnit.PrestamoIT.findExistsALLhouldReturnGames" />
+        <item itemvalue="JUnit.PrestamoIT" />
+        <item itemvalue="JUnit.PrestamoIT.findExistsFECHAShouldReturnGames" />
+        <item itemvalue="JUnit.PrestamoIT.deleteWithExistsIdShouldDeletePrestamo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1e97f53d-8bc9-4e8b-ac78-79141f731c30" name="Changes" comment="" />
+      <created>1738572136488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738572136488</updated>
+    </task>
+    <servers />
+  </component>
+</project>
