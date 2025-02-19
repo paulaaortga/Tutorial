@@ -1,0 +1,47 @@
+<div class="container">
+    <h1 *ngIf="prestamo.id == null">Crear préstamo</h1>
+
+    <form>
+        <mat-form-field>
+            <mat-label>Identificador</mat-label>
+            <input type="text" matInput placeholder="Identificador" [(ngModel)]="prestamo.id" name="id" disabled>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Juego</mat-label>
+            <mat-select disableRipple [(ngModel)]="prestamo.game" name="game" required>
+                <mat-option *ngFor="let game of games" [value]="game">{{game.title}}</mat-option>
+            </mat-select>
+            <mat-error>La juego no puede estar vacía</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Cliente</mat-label>
+            <mat-select disableRipple [(ngModel)]="prestamo.client" name="client" required>
+                <mat-option *ngFor="let client of clients" [value]="client">{{client.name}}</mat-option>
+            </mat-select>
+            <mat-error>El cliente no puede estar vacío</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Fechas de prestamo</mat-label>
+            <input type="date" matInput placeholder="fecha de prestamo" [(ngModel)]="prestamo.fechaInicio" name="fechaInicio" required>
+            <mat-error>La fecha de prestamo no puede estar vacía</mat-error>
+        </mat-form-field>
+
+        <mat-form-field>
+            <mat-label>Fechas de prestamo</mat-label>
+            <input type="date" matInput placeholder="fecha de devolucion" [(ngModel)]="prestamo.fechaFin" name="fechaFin" required (change)="validateFecha()" (change)="validateFechaMaxima()">
+            <mat-error>La fecha de devolucion no puede estar vacía</mat-error>
+            <div *ngIf="prestamo.fechaFin < prestamo.fechaInicio" style="color: red">La fecha de devolucion no puede ser menor que la fecha de inicio</div>
+            <div *ngIf="diasDiferencia !== null && diasDiferencia> 14" style="color: red" >La fecha de devolucion no puede superar los 14 días</div>
+
+        </mat-form-field>
+    
+    </form>
+
+    <div class="buttons">
+        <button mat-stroked-button (click)="onClose()">Cerrar</button>
+        <button mat-flat-button color="primary" (click)="onSave()">Guardar</button>
+    </div>
+</div>
